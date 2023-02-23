@@ -1,0 +1,40 @@
+{
+  "name": "react-native-otp-withpaste",
+  "version": "1.0.2",
+  "description": "OTP Input With Paste for React Native",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "preset": "react-native",
+    "transformIgnorePatterns": [
+      "/node_modules/(?!native-base)/"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/recepaltas/react-native-otp-withpaste/issues"
+  },
+  "homepage": "https://github.com/recepaltas/react-native-otp-withpaste#readme",  
+  "keywords": [
+    "react-native-otp-withpaste",
+    "otp",
+    "rn-otp-input",
+    "otp-forminput",
+    "otp-input",
+    "react",
+    "react-native"
+  ],
+  "author": "mesutche",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "babel-jest": "^27.5.1",
+    "jest": "^27.5.1",
+    "react": "^18.0.0",
+    "react-native": "^0.68.1",
+    "react-test-renderer": "^18.0.0"
+  }
+}
