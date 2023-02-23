@@ -14,10 +14,12 @@ npm install react-native-otp-withpaste
 
 ### Usage
 ```js
-import React from 'react';
+import React,{useState} from 'react';
 import OTPInput from 'react-native-otp-withpaste';
 
 const App = () => {
+  const [pasted, setpasted] = useState(null);
+  
   return (
     <>
       <OTPInput
@@ -26,7 +28,7 @@ const App = () => {
         onChange={code => {
           console.log(code);
         }}
-        onPasted={state.pasted}
+        onPasted={pasted}
       />
     </>
   );
